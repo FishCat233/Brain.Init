@@ -1,27 +1,24 @@
-# 科协git&github培训
+# 科协 git & github 培训
 
-
+---
 
 ## 1.科学上网
 
-​	github需要科学上网，如果想用歪果网站，可以连接科协 WIFI，这样就可以直接访问 github 。如果想在科协以外的地方使用 github，或者在科协网不稳定的情况下用自己的网连接 github，请qq联系我 1462913972，并且线下来找我
+github需要科学上网，如果想用歪果网站，可以连接科协 WIFI，这样就可以直接访问 github 。如果想在科协以外的地方使用 github，或者在科协网不稳定的情况下用自己的网连接 github，请qq联系我 1462913972，并且线下来找我
 
+## 2.注册 Github
 
+在学习 git 之前，我们先注册一个 github 账号
 
-## 2.注册github
+##### 1.登陆 Github
 
-​	在学习 git 之前，我们先注册一个 github 账号
-
-##### 1.科学上网前往  github 官网https://github.com/，点击官网右上角的 sign up 进行注册
+前往 [Github 官网](https://github.com/) ，点击官网右上角的 sign up 进行注册
 
 ![image-20250517111736145](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517105937198.png)
 
 ##### 2.按照所给格式填写相关信息
 
-​	之后证明自己是人
-
-
-
+之后证明自己是人
 
 ![image-20250517111736145](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517111736145.png)
 
@@ -31,31 +28,25 @@
 
 输入验证码后，你就创建好github账号了！请记住你所绑定的邮箱，和设置的密码。
 
+## 3.学习 Github
 
+##### 现在你已经有了一个 Github 账号了。在正式开始学 git 之前，我们要在 Github 先创建一个远程仓库 
 
-## 3.学习github
-
-##### 现在你已经有了一个Github账号了。在正式开始学git之前，我们要在Github先创建一个远程仓库 
-
-​	点击github网页界面右上角的头像，点击 **Your repositories**（资源库）
+点击github网页界面右上角的头像，点击 **Your repositories**（资源库）
 
 ![image-20250517115948705](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517115948705.png)
 
-​	目前你的库中没有任何的项目，让我们来new一个，点击绿色按钮 **new **一个新的库
+目前你的库中没有任何的项目，让我们来new一个，点击绿色按钮 **new** 一个新的库
 
 ![image-20250517120047861](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120047861.png)
 
-
-
-
-
-##### 	我们进入了一个新的界面！现在我们就要编辑库的基本信息了，让我们一个一个来看看这些都是什么
+##### 我们进入了一个新的界面！现在我们就要编辑库的基本信息了，让我们一个一个来看看这些都是什么
 
 ![image-20250517120122171](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120122171.png)
 
-**Repository name **，正如其名，这是你库的名字，**给你的库起一个易识别的名字**。
+**Repository name**，正如其名，这是你库的名字，**给你的库起一个易识别的名字**。
 
-**Description **，可以给你的库做一个简单的**介绍**。
+**Description**，可以给你的库做一个简单的**介绍**。
 
 **public** 和 **private** 是这个库的**访问权限**
 
@@ -86,23 +77,13 @@ https://git-scm.com/downloads
 
 ![image-20250517122124404](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122124404.png)
 
-
-
 ​																				![image-20250517122144975](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122144975.png)
-
-
-
-
 
 之后就会进行下载，下载完成后打开 .exe 安装包，安装时**全部选择默认选项**即可
 
 ![image-20250517122232086](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122232086.png)
 
-
-
 点击install，等待安装，安装后就完成了
-
-
 
 ##### 如果你已经有了想上传到 github 的文件，请依照下面的教程进行操作
 
@@ -110,11 +91,11 @@ https://git-scm.com/downloads
 
 ![image-20250517121946574](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517121946574.png)
 
-​	接下来就可以进行git文件的**初始化**了
+接下来就可以进行git文件的**初始化**了
 
 ##### 文件夹初始化
 
-​	**右键点击空白处**，选择在终端中打开
+**右键点击空白处**，选择在终端中打开
 
 ![image-20250517122701485](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122701485.png)
 
@@ -241,7 +222,6 @@ origin 后面的就是你的仓库地址，如下图演示
 
 首先，添加原始仓库作为你的 upstream（就是你fork仓库的主人）如下图所示
 
-
 ![image-20250517131950789](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517131950789.png)
 
 **输入** `git remote add upstream 原始仓库地址`
@@ -276,7 +256,7 @@ origin 后面的就是你的仓库地址，如下图演示
 接下来就是要把 feature 分支推送到自己的仓库
 
 **输入**`git push origin feature/分支名`
-这样就可以在Github中看到自己的分支了
+这样就可以在 Github 中看到自己的分支了
 
 ![image-20250517134124275](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134124275.png)
 
@@ -289,8 +269,6 @@ origin 后面的就是你的仓库地址，如下图演示
 
 **如果你的分支功能已经稳定，想要更新自己仓库中的 main 了，就要在本地切回 main 分支，进行合并**
 输入`git checkout main`，切回 main 分支
-
-
 
 ​					![	](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134336626.png)									
 我们成功的切换到了 main 分支上！
@@ -323,7 +301,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ![image-20250517134901795](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134901795.png)
 
-接下来就可以看到我们的提交信息，以及是否和源库中有冲突。如果开发分支与上游主分支有冲突，我们需要手动去解决冲突，这个我们后面再讲。目前我们的代码没有任何的冲突，就可以去 **Creat pull request** 了
+接下来就可以看到我们的提交信息，以及是否和源库中有冲突。如果开发分支与上游主分支有冲突，我们需要手动去解决冲突，这个我们后面再讲。目前我们的代码没有任何的冲突，就可以去 **Create pull request** 了
 
 ![image-20250517135201335](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517135201335.png)
 
@@ -368,29 +346,26 @@ origin 后面的就是你的仓库地址，如下图演示
 `git push origin feature/lny`
 
 
-
-
-
 ## 7.关于规范
 
 #### 1.命名规范
 
-​	不同的语言，不同的公司有着不同的命名规范，比如 C# 中，private 字段前要有下划线 _ 来区分这个字段的访问权限
+不同的语言，不同的公司有着不同的命名规范，比如 C# 中，private 字段前要有下划线 _ 来区分这个字段的访问权限
 
 #### 2.提交和pr规范
 
-##### 	提交一般要有清晰的提交信息，采用规范的格式，如下所示
+##### 提交一般要有清晰的提交信息，采用规范的格式，如下所示
 
-​	feat: 添加用户登录功能
+feat: 添加用户登录功能
 
-​	fix: 修复无法保存设置的 bug
+fix: 修复无法保存设置的 bug
 
-​	refactor: 重构登录逻辑
+refactor: 重构登录逻辑
 
-​	docs: 更新文档
+docs: 更新文档
 
-##### 	在PR中要描述清楚改动的目的和影响，每个功能都要用pr提交
+##### 在PR中要描述清楚改动的目的和影响，每个功能都要用pr提交
 
 #### 3.Issue的使用
 
-​	可以用 Isuue 来记录 bug ，功能需求等
+可以用 Isuue 来记录 bug ，功能需求等
