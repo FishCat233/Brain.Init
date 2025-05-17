@@ -154,7 +154,8 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ##### 1.每次都手动拉取 main 分支
 
-**输入**`git pull origin main`，拉取main分支上的所有文件
+**输入**`git pull origin main`
+拉取main分支上的所有文件
 
 ![image-20250517124231130](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517124231130.png)
 
@@ -170,21 +171,24 @@ origin 后面的就是你的仓库地址，如下图演示
 ![image-20250517124311866](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517124311866.png)
 
 **接下来我们要开始添加文件了**
-**输入** `git add .` (这里还有一个点，实际上就是 git[空格]add[空格].   add和.之间有一个空格)
+**输入** `git add .` 
+(这里还有一个点，实际上就是 git[空格]add[空格].   add和.之间有一个空格)
 `git add .`是将此文件夹中除了 .gitignore 忽略文件以外的所有文件全部添加到暂存区。
 
-（或者你只想添加指定的文件，可以git add 文件名，如git add KexieGitTest.doc）
+（或者你只想添加指定的文件，可以 git add 文件名，如 git add KexieGitTest.doc）
 
 ![image-20250517124752096](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517124752096.png)
 
 接下来我们就要把暂存区的文件提交到本地仓库了，我们使用最简洁的提交方式
-**输入**`git commit -m "此处为提交描述"`  （注意，格式为git[空格]commit[空格]-m[空格]"此处为提交描述"）
+**输入**`git commit -m "此处为提交描述"`  
+（注意，格式为git[空格]commit[空格]-m[空格]"此处为提交描述"）
 
 ![image-20250517125021447](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517125021447.png)
 
 成功了！我们把文件上传到本地仓库了！
 接下来就是把本地仓库中的文件推送到远程仓库。
-如果在之前你已经设置了**分支跟踪**，那么你只需要输入 `git push`
+如果在之前你已经设置了**分支跟踪**，那么你只需要
+**输入** `git push`
 反之，则需要输入`git push origin main`，才能成功提交到远程
 
 ![image-20250517125644081](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517125644081.png)
@@ -255,7 +259,8 @@ origin 后面的就是你的仓库地址，如下图演示
 
 **关于分支，我推荐 main 只同步上游，只保留最稳定的版本，所有的功能开发和 bug 修复都在 feature 分支上完成，完成之后发 pr，合并到主分支**
 
-**输入**`git checkout -b feature/分支名`（也可以不用前面的feature， feature/分支名只是一种命名规范）
+**输入**`git checkout -b feature/分支名`
+（也可以不用前面的feature， feature/分支名只是一种命名规范）
 如下图
 
 ![image-20250517133649638](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517133649638.png)
