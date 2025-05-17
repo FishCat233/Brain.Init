@@ -30,4 +30,4 @@
 
   - 这里建议全部勾选
 
-  - <img src="F:\Projects\Brain.Init\Clang\assets\vsc_installation_1.png" alt="vsc_installation_1" style="zoom:50%;" />
+    <img src="./assets/vsc_installation_1.png" style="zoom:50%;" />
