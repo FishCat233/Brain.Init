@@ -77,4 +77,4 @@
 ---
 
 ## 🔚最后
-- 最终解释权归[此仓库](https://github.com/Yiyue345/Brain.Init/tree/main)所有者及维护者所有
+- 最终解释权归[此仓库](https://github.com/Yiyue345/Brain.Init/tree/main)所有者及Collaborator所有

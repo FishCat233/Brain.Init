@@ -1,29 +1,33 @@
 # C语言从这里开始
 
-## 1.配置编译器
+## 前置任务: 配置编程环境
 
-我们知道,C是一门编译型语言。所有C代码在诞生时,都要经过编译器的洗礼,才能成为可被执行的程序。于是编译器便是我们学习C语言的基础~~(同时也是劝退很多人的难点)~~。
+工欲善其事,必先利其器。没有人希望在写好第一个程序满心欢喜想要运行时遇到 `"gcc.exe: 找不到xxx"` 等等这样的报错。所以配置一个令人舒适的编程环境是每个C programmer的必经之路。
 
-作为一个新时代的人,学会使用VSCode这个新时代的IDE自然是必不可少的。
+本文以 **VSCode+MSYS2+GCC** 为例(这也是现在较为普遍使用的环境)带你配置好编程环境,为你准备新手村的装备。
 
-- **推荐使用VSCode+MSYS2+GCC。**
+### VSCode
 
-### 		安装教程:
+作为一个新时代的人, 学会使用VSCode这个新时代的IDE自然是必不可少的。
 
-1. 安装VSCode
+- 下载VSCode
 
-   前往VSCode官网
+  - 前往<a href="https://code.visualstudio.com/">VSCode官网</a> 点击Download For Windows下载。
 
-   ```
-   https://code.visualstudio.com/
-   ```
+  - 或点击<a href="https://code.visualstudio.com/docs/?dv=win64user">这个链接</a>直接下载
 
-   点击Download For Windows下载。
+  - 点击下载后,等待片刻, 同时憧憬一下未来的编程之路
 
-   或使用链接
+- 安装VSCode
 
-   ```
-   https://code.visualstudio.com/docs/?dv=win64user
-   ```
+  - 双击安装包开始安装。
 
-   直接下载
+  - 选择目标位置时选择自己喜欢的目录。 **建议为编程单独准备一个硬盘分区或者一个根文件夹。** 并将VSCode安装到该文件夹中的一个空文件夹中。
+
+  - 例如:
+
+    <img src="./assets/vsc_installation_0.png" style="zoom: 50%;" />
+
+  - 这里建议全部勾选
+
+    <img src="./assets/vsc_installation_1.png" style="zoom:50%;" />
