@@ -1,18 +1,17 @@
-# 科协 git & github 培训
+# 科协 git & GitHub 培训
 
 ---
 
-## 1.科学上网
+## 1.进不去 GitHub？
 
-github需要科学上网，如果想用歪果网站，可以连接科协 WIFI，这样就可以直接访问 github 。如果想在科协以外的地方使用 github，或者在科协网不稳定的情况下用自己的网连接 github，请qq联系我 1462913972，并且线下来找我
+由于某些特殊的原因（指 GFW），我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
+## 2.注册 GitHub
 
-## 2.注册 Github
+在学习 git 之前，我们先注册一个 GitHub 账号
 
-在学习 git 之前，我们先注册一个 github 账号
+##### 1.登陆 GitHub
 
-##### 1.登陆 Github
-
-前往 [Github 官网](https://github.com/) ，点击官网右上角的 sign up 进行注册
+前往 [GitHub 官网](https://github.com/) ，点击官网右上角的 sign up 进行注册
 
 ![image-20250517111736145](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517105937198.png)
 
@@ -26,51 +25,51 @@ github需要科学上网，如果想用歪果网站，可以连接科协 WIFI，
 
 ![image-20250517111840296](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517111840296.png)
 
-输入验证码后，你就创建好github账号了！请记住你所绑定的邮箱，和设置的密码。
+输入验证码后，你就创建好 GitHub 账号了！请记住你所绑定的邮箱，和设置的密码。
 
-## 3.学习 Github
+## 3.学习 GitHub
 
-##### 现在你已经有了一个 Github 账号了。在正式开始学 git 之前，我们要在 Github 先创建一个远程仓库 
+##### 现在你已经有了一个 GitHub 账号了。在正式开始学 git 之前，我们要在 GitHub 先创建一个远程仓库 
 
-点击github网页界面右上角的头像，点击 **Your repositories**（资源库）
+点击 GitHub 网页界面右上角的头像，点击 **Your repositories**（你的仓库）
 
 ![image-20250517115948705](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517115948705.png)
 
-目前你的库中没有任何的项目，让我们来new一个，点击绿色按钮 **new** 一个新的库
+目前你还没有任何仓库，让我们来 new 一个，点击绿色按钮 **new** 一个新的库
 
 ![image-20250517120047861](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120047861.png)
 
-##### 我们进入了一个新的界面！现在我们就要编辑库的基本信息了，让我们一个一个来看看这些都是什么
+**我们进入了一个新的界面！现在我们就要编辑库的基本信息了，让我们一个一个来看看这些都是什么**
 
 ![image-20250517120122171](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120122171.png)
 
-**Repository name**，正如其名，这是你库的名字，**给你的库起一个易识别的名字**。
+**Repository name**，正如其名，这是你库的名字，**给你的库起一个易识别的名字**
 
-**Description**，可以给你的库做一个简单的**介绍**。
+**Description**，可以给你的库做一个简单的**介绍**
 
 **public** 和 **private** 是这个库的**访问权限**
 
-##### **add a README file**，README 会显示在库的最下方，**一般是用来介绍这个库是做什么用的**，以及如何使用。
+##### **add a README file**，README 会显示在库的最下方，**一般是用来介绍这个库是做什么用的**，以及如何使用
 
-**Add .gitignore**  **这个很重要**， .gitignore 可以帮助你把不需要传入到 github 中的文件过滤（如配置文件等），可以节省上传时间，让库存变的干净等，**这个选项根据这个库的类型进行选择**
+**Add .gitignore**  **这个很重要**， .gitignore 可以帮助你把不需要传入到 GitHub 中的文件过滤（如配置文件等），可以节省上传时间，让库存变的干净等，**这个选项根据这个库的类型进行选择**
 
 **Choose a license** 主要用于指导你在项目中添加一个合适的开源协议，**默认为 None 就好**
 
-![image-20250517120610821](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120610821.png)
-
 以下是针对我个人的设置，大家可以参考一下
+
+![image-20250517120610821](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120610821.png)
 
 ##### 好了！现在我们已经把库的基本设置完成了，可以正式创建一个库了！
 
 点击 **Creat repository**
 
-## 4.学习git
+## 4.学习 Git
 
-目前我们已经把 github 端的基本操作完成了，接下来要做的就是正式开始学习 git
+目前我们已经把 GitHub 端的基本操作完成了，接下来要做的就是正式开始学习 git
 
 关于 git 的基本操作，我会在具体实践的过程中讲解。
 
-##### 1.安装Git
+##### 安装 Git
 
 https://git-scm.com/downloads
 进入网址后，按照电脑的系统进行 git 安装
@@ -83,15 +82,15 @@ https://git-scm.com/downloads
 
 ![image-20250517122232086](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122232086.png)
 
-点击install，等待安装，安装后就完成了
+点击 install，等待安装，安装后就完成了
 
-##### 如果你已经有了想上传到 github 的文件，请依照下面的教程进行操作
+##### 如果你已经有了想上传到 GitHub 的文件，请依照下面的教程进行操作
 
-首先，找到你想要上传到 github 的本地文件所在地，点击**"查看/展示"**，勾选**“隐藏的项目"**
+首先，找到你想要上传到 GitHub 的本地文件所在地，点击 **"查看/展示"** ，勾选 **“隐藏的项目"**
 
 ![image-20250517121946574](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517121946574.png)
 
-接下来就可以进行git文件的**初始化**了
+接下来就可以进行 git 文件的**初始化**了
 
 ##### 文件夹初始化
 
@@ -174,7 +173,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ![image-20250517125644081](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517125644081.png)
 
-好了！这样你就会在 github 中看到你所上传的所有文件了！ 
+好了！这样你就会在 GitHub 中看到你所上传的所有文件了！ 
 
 
 
@@ -184,7 +183,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ##### 现在要开始团队协作了吗？
 
-首先，去到想要参与的 Github 仓库页面，点击右上角的 **Fork** 按钮，把该项目的副本复制到自己的仓库
+首先，去到想要参与的 GitHub 仓库页面，点击右上角的 **Fork** 按钮，把该项目的副本复制到自己的仓库
 
 ![image-20250517130550810](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517130550810.png)
 
@@ -247,7 +246,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 我们成功在本地创建了一个新的分支！并且checkout（切换）到了这个分支当中，之后的功能开发都要在分支当中进行
 
-**接下来我们要在 featrue 分支上写代码，写完代码后我们进行提交**
+**接下来我们要在 feature 分支上写代码，写完代码后我们进行提交**
 **老样子**，`git add .`     `git commit -m "实现内容"`
 
 ![image-20250517133857692](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517133857692.png)
@@ -256,7 +255,7 @@ origin 后面的就是你的仓库地址，如下图演示
 接下来就是要把 feature 分支推送到自己的仓库
 
 **输入**`git push origin feature/分支名`
-这样就可以在 Github 中看到自己的分支了
+这样就可以在 GitHub 中看到自己的分支了
 
 ![image-20250517134124275](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134124275.png)
 
@@ -272,26 +271,32 @@ origin 后面的就是你的仓库地址，如下图演示
 
 ​					![	](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134336626.png)									
 我们成功的切换到了 main 分支上！
+
 接下来要合并 lny 分支和 main 分支
+
 **输入**`git merge featrue/分支名`
+
 如下图所示
 
 ![image-20250517134440380](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134440380.png)
 
 我们成功的在本地把 lny 分支的更改合并到了 main 分支！
+
 再把本地的修改推送到远程，**我们利用手动拉取main分支的方法**
+
 **输入**`git push origin main`
 
 ​					![image-20250517134558998](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134558998.png)
-成功了！
-让我们检查 github 的 main 分支是否更新
+成功了！让我们检查 GitHub 的 main 分支是否更新
 
 ![image-20250517134637859](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134637859.png)
 
 ![image-20250517134649235](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134649235.png)
 
 更新成功！现在 git 方面的代码已经基本完善了，接下来就要交 pr 等待库的拥有者同意合并了！
-我们回到 github，准备 Pull requests 的工作
+
+我们回到 GitHub，准备 Pull requests 的工作
+
 回到自己的库中，选中main分支，点击 **Pull requests**
 
 ![image-20250517134839415](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517134839415.png)
@@ -368,4 +373,4 @@ docs: 更新文档
 
 #### 3.Issue的使用
 
-可以用 Isuue 来记录 bug ，功能需求等
+可以用 Issue 来记录 bug ，功能需求等
