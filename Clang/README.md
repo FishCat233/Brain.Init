@@ -12,9 +12,9 @@
 
 - 下载VSCode
 
-  - 前往<a href="https://code.visualstudio.com/">VSCode官网</a> 点击Download For Windows下载。
+  - 前往 [VSCode官网](https://code.visualstudio.com/) 点击Download For Windows下载。
 
-  - 或点击<a href="https://code.visualstudio.com/docs/?dv=win64user">这个链接</a>直接下载
+  - 或点击 [这个链接](https://code.visualstudio.com/docs/?dv=win64user) 直接下载
 
   - 点击下载后,等待片刻, 同时憧憬一下未来的编程之路
 
