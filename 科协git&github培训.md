@@ -4,7 +4,7 @@
 
 ## 1.进不去 GitHub？
 
-由于某些特殊的原因（指 GFW），我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
+由于某些特殊的原因 ~~（指 GFW）~~ ，我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
 ## 2.注册 GitHub
 
 在学习 git 之前，我们先注册一个 GitHub 账号
@@ -98,7 +98,7 @@ https://git-scm.com/downloads
 
 ![image-20250517122701485](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122701485.png)
 
-如果没找到，**点击显示更多选项**，在里面找到**“在终端中打开”**
+如果没找到，**点击显示更多选项**，在里面找到 **“在终端中打开”**
 点击后，会有一个控制台窗口，**git 的指令都会在这个窗口中进行**		
 
 ![image-20250517122815793](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122815793.png)
