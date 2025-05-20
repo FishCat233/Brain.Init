@@ -4,7 +4,7 @@
 
 ## 1.进不去 GitHub？
 
-由于某些特殊的原因（指 GFW），我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
+由于某些特殊的原因 ~~（指 GFW）~~ ，我们直接连接 GitHub 大概率是要看运气的。如果需要稳定访问，可以使用 [Steam++](https://steampp.net/) 或其他工具进行加速，亦可前往科协连接科协 WiFi 使用
 ## 2.注册 GitHub
 
 在学习 git 之前，我们先注册一个 GitHub 账号
