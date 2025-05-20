@@ -27,7 +27,7 @@
 
 输入验证码后，你就创建好 GitHub 账号了！请记住你所绑定的邮箱，和设置的密码。
 
-## 3.学习 GitHub
+## 3.在 GitHub 中创建仓库
 
 ##### 现在你已经有了一个 GitHub 账号了。在正式开始学 git 之前，我们要在 GitHub 先创建一个远程仓库 
 
@@ -98,7 +98,7 @@ https://git-scm.com/downloads
 
 ![image-20250517122701485](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122701485.png)
 
-如果没找到，**点击显示更多选项**，在里面找到**“在终端中打开”**
+如果没找到，**点击显示更多选项**，在里面找到 **“在终端中打开”**
 点击后，会有一个控制台窗口，**git 的指令都会在这个窗口中进行**		
 
 ![image-20250517122815793](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122815793.png)
@@ -175,13 +175,9 @@ origin 后面的就是你的仓库地址，如下图演示
 
 好了！这样你就会在 GitHub 中看到你所上传的所有文件了！ 
 
-
-
-
-
 ## 5.团队协作篇之fork & pr
 
-##### 现在要开始团队协作了吗？
+*现在要开始团队协作了吗？*
 
 首先，去到想要参与的 GitHub 仓库页面，点击右上角的 **Fork** 按钮，把该项目的副本复制到自己的仓库
 
