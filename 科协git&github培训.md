@@ -29,7 +29,9 @@
 
 ## 3.在 GitHub 中创建仓库
 
-##### 现在你已经有了一个 GitHub 账号了。在正式开始学 git 之前，我们要在 GitHub 先创建一个远程仓库 
+现在你已经有了一个 GitHub 账号了。在正式开始学 git 之前，我们要在 GitHub 先创建一个远程仓库
+
+仓库嘛，顾名思义就是一个存放代码的地方，方便大伙把代码整合到一起
 
 点击 GitHub 网页界面右上角的头像，点击 **Your repositories**（你的仓库）
 
@@ -43,25 +45,23 @@
 
 ![image-20250517120122171](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120122171.png)
 
-**Repository name**，正如其名，这是你库的名字，**给你的库起一个易识别的名字**
+**Repository name**，正如其名，这是你的仓库名，**给你的仓库起一个易识别的名字**
 
 **Description**，可以给你的库做一个简单的**介绍**
 
-**public** 和 **private** 是这个库的**访问权限**
+**public** （公共的）和 **private** （私有的）是这个库的**访问权限**
 
 ##### **add a README file**，README 会显示在库的最下方，**一般是用来介绍这个库是做什么用的**，以及如何使用
 
-**Add .gitignore**  **这个很重要**， .gitignore 可以帮助你把不需要传入到 GitHub 中的文件过滤（如配置文件等），可以节省上传时间，让库存变的干净等，**这个选项根据这个库的类型进行选择**
+**Add .gitignore**  **这个很重要**， .gitignore 可以帮助你把不需要添加到仓库中的文件过滤（如配置文件等），可以节省上传时间，让仓库变的干净等，**这个选项根据这个库的类型进行选择**
 
 **Choose a license** 主要用于指导你在项目中添加一个合适的开源协议，**默认为 None 就好**
 
-以下是针对我个人的设置，大家可以参考一下
+以下是一个创建选项的参考 
 
 ![image-20250517120610821](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517120610821.png)
 
-##### 好了！现在我们已经把库的基本设置完成了，可以正式创建一个库了！
-
-点击 **Creat repository**
+**好了！现在我们已经把仓库的基本设置完成了，点击Creat repository就可以正式创建一个库了！**
 
 ## 4.学习 Git
 
@@ -86,11 +86,11 @@ https://git-scm.com/downloads
 
 ##### 如果你已经有了想上传到 GitHub 的文件，请依照下面的教程进行操作
 
-首先，找到你想要上传到 GitHub 的本地文件所在地，点击 **"查看/展示"** ，勾选 **“隐藏的项目"**
+首先，找到你想要上传到 GitHub 的本地文件目录，点击 **"查看/展示"** ，勾选 **“隐藏的项目"**
 
 ![image-20250517121946574](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517121946574.png)
 
-接下来就可以进行 git 文件的**初始化**了
+接下来就可以进行 git 仓库的**初始化**了
 
 ##### 文件夹初始化
 
@@ -113,7 +113,9 @@ https://git-scm.com/downloads
 ![image-20250517122940148](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517122940148.png)
 
 这样就算完成了本地仓库的初始化！
-首先我们要做的是**关联远程仓库**，其实就是把本地仓库和远程仓库连接起来。
+
+接下来我们要做的是**关联远程仓库**，其实就是把本地仓库和远程仓库连接起来。
+
 **输入**`git remote add origin https://github.com/用户名/仓库名.git`
 
 origin 后面的就是你的仓库地址，如下图演示
@@ -123,11 +125,11 @@ origin 后面的就是你的仓库地址，如下图演示
 把这个地址复制过来，在终端中输入
 
 ![image-20250517123706035](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517123706035.png)
-如果没有弹出任何报错信息，那就代表成功了！我们再次验证一下
-**输入** `git remote -v`
+如果没有弹出任何报错信息，那就代表成功了！我们再次验证一下：**输入** `git remote -v`
 
 ![image-20250517123803933](https://raw.githubusercontent.com/Concorde0/image/refs/heads/main/image-20250517123803933.png)
 我们可以看到，目前本地和远程已经成功绑起来了！
+
 下面，我们需要把远程的.gitignore文件拉取到本地。之所以要在提交之前拉去 .gitignore 文件，是为了让我们第一次提交的时候也保持文件的整洁
 
 **接下来的拉取会有两种形式，权衡利弊后选择自己喜欢的一种。**
@@ -167,6 +169,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 成功了！我们把文件上传到本地仓库了！
 接下来就是把本地仓库中的文件推送到远程仓库。
+
 如果在之前你已经设置了**分支跟踪**，那么你只需要
 **输入** `git push`
 反之，则需要输入`git push origin main`，才能成功提交到远程
@@ -351,7 +354,7 @@ origin 后面的就是你的仓库地址，如下图演示
 
 #### 1.命名规范
 
-不同的语言，不同的公司有着不同的命名规范，比如 C# 中，private 字段前要有下划线 _ 来区分这个字段的访问权限
+不同的语言，不同的项目有着不同的命名规范，比如 C# 中，private 字段前要有下划线 _ 来区分这个字段的访问权限
 
 #### 2.提交和pr规范
 
